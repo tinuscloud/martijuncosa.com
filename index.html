@@ -3,51 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>martijuncosa.com</title>
 </head>
 <body>
-    <h1 style="text-align: center;">This will be my CV/personal website</h1>
-    <br>
-    <img src="./assets/images/profile_photo.png" alt="me in Thailand with a monkey" height="300">
-    <h2>Summary</h2>
-    <p>Hi! I'm Martí. I love websites. During all these years I've been involved with computer science, my passion for websites is the only thing that has remained consistent. Thanks to that, I developed skills across all the areas of website development: operations, ci/cd, SEO, backend and frontend. Thanks to that, I aspire to provide excellent value to my clients :)</p>
-    <h2>Education</h2>
-    <ul>
-        <li>Universitat Politècnica de Catalunya (UPC) - Computer Science, ITComputer Science, IT (2016 - 2022)</li>
-        <li>Escola Pia Balmes - Technologic Baccalaureate (2014-2016)</li>
-    </ul>
-    <h2>Work Experience</h2>
-        <h3>Ausum Cloud</h3>
-        <p>From 10/2022 to 02/2023</p>
-        <p>I worked as a cloud consultant. Providing new infrastructure in AWS to various clients and L3 support in AWS and Azure</p>
-        <br>
-        <h3>Basetis (Internship)</h3>
-        <p>From 04/2021 to 06/2023</p>
-        <p>Working clientside at Fira de Barcelona standarizing several services from Fira and MWC using AWS, jenkins & terraform.</p>
-    <h2>Skills</h2>
-    <ul>
-        <li>Linux</li>
-        <li>git</li>
-        <li>AWS</li>
-        <li>Terraform</li>
-        <li>Networking</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SEO</li>
+    <section class="hero-container">
+        <img src="./assets/images/profile_photo.png" alt="profile photo">
+        <div class="hero-content">
+            <h1>I'm Martí Juncosa</h1>
+            <p>A <span class="hero-webdev">full stack web developer</span> and former cloud consultant</p>
+            <div class="hero-socials">
+                <a href="https://github.com/tinuscloud"><img src="./assets/images/github-icon.svg" alt="github"></a>
+                <a href="https://www.linkedin.com/in/martijuncosa/"><img src="./assets/images/linkedin.svg" alt="linkedin"></a>
+            </div>
 
-    </ul>
-    <h2>Certifications</h2>
-    <ul>
-        <li><a href="https://www.credly.com/badges/31bf2c60-48a8-46ba-886d-0a0d5a8ee0e7/public_url" target="_blank">AWS Certified Solutions Architect - Associate</a></li>
-        <li><a href="https://www.credly.com/badges/b9dbe872-70f7-42b0-87e4-1f6650a5db64/linked_in_profile" target="_blank">HashiCorp Certified: Terraform Associate</a></li>
-        <li><a href="https://www.credly.com/badges/dfea255d-9586-4626-b736-46ac906d95cc/public_url" target="_blank">AWS Certified Cloud Practitioner (CLF-C01)</a></li>
-        <li><a href="#">C1 Advanced (CAE)</a></li>
-    </ul>
+        </div>
+    </section>
 
+    <section class="workexp">
+        <div class="container-1">
+            <h2>Work Experience</h2>
+            <div class="work-item">
+                <h3>Ausum Cloud</h3>
+                <p>From 10/2022 to 02/2023</p>
+                <p>I worked as a cloud consultant. Providing new infrastructure in AWS to various clients and L3 support in AWS and Azure</p>
+
+            </div>
+            <div class="work-item">
+                <h3>Basetis (Internship)</h3>
+                <p>From 04/2021 to 06/2023</p>
+                <p>Working clientside at Fira de Barcelona standarizing several services from Fira and MWC using AWS, jenkins & terraform.</p>
+            </div>
+    </section>
+
+    <section class="education">
+        <div class="container-1">
+            <h2>Education</h2>
+            <ul>
+                <li>Universitat Politècnica de Catalunya (UPC) - Computer Science, ITComputer Science, IT (2016 - 2022)</li>
+                <li>Escola Pia Balmes - Technologic Baccalaureate (2014-2016)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container-1">
+            <h2>Skills</h2>
+            <div class="skills-cont">
+                <ul>
+                    <li>Linux</li>
+                    <li>Git</li>
+                    <li>AWS</li>
+                    <li>Terraform</li>
+                    <li>Networking</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SEO</li>
+            
+                </ul>
+            </div> 
+        </div>
+    </section>
+
+    <section class="certifications">
+        <div class="container-1">
+            <h2>Certifications</h2>
+            <div class="cert-row">
+                <ul>
+                    <li><a href="https://www.credly.com/badges/31bf2c60-48a8-46ba-886d-0a0d5a8ee0e7/public_url" target="_blank"><img src="./assets/images/solutions-architect-associate.png" alt="AWS Certified Solutions Architect - Associate"></a></li>
+                    <li><a href="https://www.credly.com/badges/b9dbe872-70f7-42b0-87e4-1f6650a5db64/linked_in_profile" target="_blank"><img src="./assets/images/terraform-associate.png" alt="HashiCorp Certified: Terraform Associate"></a></li>
+                    <li><a href="https://www.credly.com/badges/dfea255d-9586-4626-b736-46ac906d95cc/public_url" target="_blank"><img src="./assets/images/cloud-practitioner.png" alt="AWS Certified Cloud Practitioner (CLF-C01)"></a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </section>
     <hr>
-    <footer>
-        <p style="text-align: center;">© 2024 martijuncosa.com</p>
+    <footer class="footer">
+       
+        <p>© 2024 martijuncosa.com</p>
     </footer>
 </body>
 </html>
