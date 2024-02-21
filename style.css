@@ -4,6 +4,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
 .hero-container{
     height: 600px;
     padding: 100px 60px 20px 60px;
@@ -45,6 +49,17 @@
 .hero-socials > a > img{
     height: 30px;
     width: 30px;
+}
+
+.button-contact {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #00008b;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -166,6 +181,7 @@
     .hero-container{
         flex-direction: column;
         text-align: center;
+        height: 700px;
     }
 
     .hero-container > img {
@@ -184,4 +200,6 @@
         width: 220px;
         height: 250px;
     }
+
+
 }
